@@ -2,9 +2,17 @@
 	"name": "@ghostebony/calendar-days",
 	"version": "0.0.3",
 	"main": "index.js",
+	"type": "module",
 	"author": "Pedro Américo",
 	"license": "MIT",
 	"repository": "github:ghostebony/calendar-days",
+	"keywords": [
+		"calendar",
+		"day",
+		"week",
+		"year",
+		"date"
+	],
 	"scripts": {
 		"preinstall": "npx only-allow pnpm",
 		"build": "tsc --build",
@@ -15,13 +23,5 @@
 	"devDependencies": {
 		"prettier": "^2.7.1",
 		"typescript": "^4.7.4"
-	},
-	"keywords": [
-		"calendar",
-		"day",
-		"week",
-		"year",
-		"date"
-	],
-	"type": "module"
+	}
 }
